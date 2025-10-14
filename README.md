@@ -8,7 +8,7 @@
 **其他相关资源**
 * [计算广告相关论文和资源列表](https://github.com/wzhe06/Ad-papers) <br />
 * [张伟楠的RTB Papers列表](https://github.com/wnzhang/rtb-papers)<br />
-* [基于Spark MLlib的CTR prediction模型(LR, Random forest, GBDT, NN, PNN)](https://github.com/wzhe06/CTRmodel) <br />
+* [搜广推业界实践文章](https://github.com/Doragd/Algorithm-Practice-in-Industry) <br />
 * [Honglei Zhang的推荐系统论文列表](https://github.com/hongleizhang/RSPapers)
 
 
