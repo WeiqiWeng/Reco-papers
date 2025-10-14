@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
-import urllib
+import urllib.parse
 
 """ generate readme.md """
 __author__ = 'Wang Zhe'
@@ -29,12 +29,12 @@ for line in all_lines:
 
     if paper_class_flag == 1 and not line.startswith("*") and not line.startswith("#"):
         paper_class_map[paper_class_name] = line.strip()
-        print paper_class_name, line.strip()
+        print (paper_class_name, line.strip())
     paper_class_flag = 0
 
     if paper_flag == 1 and not line.startswith("*") and not line.startswith("#"):
         paper_map[paper_name] = line.strip()
-        print "\t", paper_name, line.strip()
+        print ("\t", paper_name, line.strip())
 
     paper_flag = 0
 
@@ -57,8 +57,8 @@ for one_dir in all_dir:
         all_sub_files = os.listdir(one_dir)
         for one_file in all_sub_files:
             if not os.path.isdir(one_file) and not one_file.startswith('.'):
-                out_file.write("* [" + ('.').join(one_file.split('.')[:-1]) + "]("+github_root + urllib.quote(one_dir.strip())+"/"
-                               + urllib.quote(one_file.strip())+") <br />\n")
+                out_file.write("* [" + ('.').join(one_file.split('.')[:-1]) + "]("+github_root + urllib.parse.quote(one_dir.strip())+"/"
+                               + urllib.parse.quote(one_file.strip())+") <br />\n")
                 if one_file.strip() in paper_map:
                     out_file.write(paper_map[one_file.strip()] + "\n")
 
