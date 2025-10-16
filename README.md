@@ -104,6 +104,7 @@
 * [[MetaGR] Actions Speak Louder than Words- Trillion-Parameter Sequential Transducers for Generative Recommendations](https://github.com/wzhe06/Reco-papers/blob/master/LLM%20Recommender%20System/%5BMetaGR%5D%20Actions%20Speak%20Louder%20than%20Words-%20Trillion-Parameter%20Sequential%20Transducers%20for%20Generative%20Recommendations.pdf) <br />
 * [[OneRec] Unifying Retrieve and Rank with Generative Recommender and Preference Alignment](https://github.com/wzhe06/Reco-papers/blob/master/LLM%20Recommender%20System/%5BOneRec%5D%20Unifying%20Retrieve%20and%20Rank%20with%20Generative%20Recommender%20and%20Preference%20Alignment.pdf) <br />
 * [[ClickPrompt] CTR Models are Strong Prompt Generators for Adapting Language Models to CTR Prediction](https://github.com/wzhe06/Reco-papers/blob/master/LLM%20Recommender%20System/%5BClickPrompt%5D%20CTR%20Models%20are%20Strong%20Prompt%20Generators%20for%20Adapting%20Language%20Models%20to%20CTR%20Prediction.pdf) <br />
+* [[Tiger] Recommender Systems with Generative Retrieval](https://github.com/wzhe06/Reco-papers/blob/master/LLM%20Recommender%20System/%5BTiger%5D%20Recommender%20Systems%20with%20Generative%20Retrieval.pdf) <br />
 
 ### Evaluation
 * [[EE Evaluation Intro] Offline Evaluation and Optimization for Interactive Systems (Microsoft 2015)](https://github.com/wzhe06/Reco-papers/blob/master/Evaluation/%5BEE%20Evaluation%20Intro%5D%20Offline%C2%A0Evaluation%C2%A0and%C2%A0Optimization%20for%C2%A0Interactive%C2%A0Systems%20%28Microsoft%202015%29.pdf) <br />
